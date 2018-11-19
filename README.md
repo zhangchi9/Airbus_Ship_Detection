@@ -1,12 +1,17 @@
-# Ames Iowa's house prices prediction
+# Airbus 
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-One to two paragraph statement about your product and what it does.
+This a computer vision object detection and segmentation problem on kaggle (https://www.kaggle.com/c/airbus-ship-detection#description). In this problem, I build a model that detects all ships in satellite images and generate a mask for each ship. There several deep learning models that works with image detection such as YOLO, R-CNN, Fast R-CNN, Faster R-CNN. For objection segmentation, Unet is a great tools. Recently there is a nice paper on object instance segmentation (https://arxiv.org/abs/1703.06870) called Mask R-CNN.
 
-![](header.png)
+In this problem, most image (~80%) contains no ships. So my strategy is the following:
+
+I build a classifier to detect if a image has any ships.
+Feed the image that contains image detected by the classifier to Mask R-CNN.
+
+![](header.jpg)
 
 ## Installation
 
