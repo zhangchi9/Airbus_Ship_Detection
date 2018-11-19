@@ -1,4 +1,4 @@
-# Airbus 
+# Airbus Ships detection problem
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
@@ -8,8 +8,8 @@ This a computer vision object detection and segmentation problem on kaggle (http
 
 In this problem, most image (~80%) contains no ships. So my strategy is the following:
 
-I build a classifier to detect if a image has any ships.
-Feed the image that contains image detected by the classifier to Mask R-CNN.
+1. I build a classifier to detect if a image has any ships.
+2. Feed the image that contains image detected by the classifier to Mask R-CNN.
 
 ![](header.jpg)
 
