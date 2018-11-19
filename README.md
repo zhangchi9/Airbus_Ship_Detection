@@ -14,8 +14,11 @@ In this problem, most image (~80%) contains no ships. So my strategy is the foll
 ## Results
 
 <p align="center">
-  <img src="seg_val0.png" alt="drawing" width="400"/>
+  <img src="seg_val0.png">
 </p>
+
+### Acknowledgement
+This code is implemented on maskrcnn frameworks (https://github.com/matterport/Mask_RCNN). Thanks for their great work!
 
 ### Prerequisites
 
