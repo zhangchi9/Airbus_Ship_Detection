@@ -11,7 +11,9 @@ In this problem, most image (~80%) contains no ships. So my strategy is the foll
 1. I build a classifier to detect if a image has any ships.
 2. Feed the image that contains image detected by the classifier to Mask R-CNN.
 
-![](header.jpg)
+<p align="center">
+  <img src="heaer.jpg" alt="drawing" width="400"/>
+</p>
 
 ## Installation
 
